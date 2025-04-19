@@ -41,6 +41,9 @@ build/native_assets
 build/path_provider_android
 build/shared_preferences_android
 build/speech_to_text
+build/1487c8a8b5ccb911826b06c9c12541df
+build/flutter_assets
+build/cache.dill.track.dill
 
 # Symbolication related
 app.*.symbols

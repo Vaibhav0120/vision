@@ -23,7 +23,7 @@ class AppTheme {
         background: backgroundColor,
         error: errorColor,
       ),
-      appBarTheme: const AppBarTheme(
+      appBarTheme: AppBarTheme(
         backgroundColor: backgroundColor,
         elevation: 0,
         centerTitle: true,
@@ -33,7 +33,7 @@ class AppTheme {
           fontWeight: FontWeight.bold,
         ),
       ),
-      textTheme: const TextTheme(
+      textTheme: TextTheme(
         bodyLarge: TextStyle(color: textColor),
         bodyMedium: TextStyle(color: textColor),
         titleLarge: TextStyle(color: textColor, fontWeight: FontWeight.bold),
@@ -45,7 +45,7 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
-          padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 24),
+          padding: EdgeInsets.symmetric(vertical: 16, horizontal: 24),
         ),
       ),
       inputDecorationTheme: InputDecorationTheme(
@@ -55,13 +55,13 @@ class AppTheme {
           borderRadius: BorderRadius.circular(12),
           borderSide: BorderSide.none,
         ),
-        hintStyle: const TextStyle(color: subtleTextColor),
+        hintStyle: TextStyle(color: subtleTextColor),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: surfaceColor,
         elevation: 0,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
+          borderRadius: BorderRadius.circular(16), // Removed 'const' here
         ),
       ),
     );

@@ -20,7 +20,7 @@ dependencies:
   shared_preferences: any
   flutter_markdown: any
   path_provider: any
-  flutter_dotenv: any
+  flutter_dotenv: ^5.2.1
   intl: any
   uuid: any
 
