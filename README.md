@@ -1,7 +1,8 @@
+[Watch Live](https://vision-virid.vercel.app/)
+
 ```
 lib/
 ├── main.dart
-├── .env
 ├── models/
 │   ├── message.dart
 │   └── chat_session.dart
