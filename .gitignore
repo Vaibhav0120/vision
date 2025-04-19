@@ -31,7 +31,16 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
+
+# Ignore all build folders
+build/app
+build/file_picker
+build/flutter_tts
+build/flutter_plugin_android_lifecycle
+build/native_assets
+build/path_provider_android
+build/shared_preferences_android
+build/speech_to_text
 
 # Symbolication related
 app.*.symbols
