@@ -1,12 +1,13 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import '../utils/constants.dart';
 
 class GroqService {
   final String apiKey;
 
-  GroqService({String? apiKey}) : apiKey = apiKey ?? dotenv.env['GROQ_API_KEY'] ?? '';
+  // Use const fromEnvironment instead of dotenv for web support
+  GroqService({String? apiKey})
+      : apiKey = apiKey ?? const String.fromEnvironment('GROQ_API_KEY');
 
   Future<String> generateResponse(List<Map<String, String>> messages) async {
     try {
