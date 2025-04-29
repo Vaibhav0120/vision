@@ -61,7 +61,7 @@ lib/
 ### Installation
 
 ```bash
-git clone https://github.com/Vaibhav0120/vision.git
+git clone https://github.com/Vaibhav0120/Vision-AI.git
 cd vision
 flutter pub get
 flutter run -d chrome   # or your desired device
