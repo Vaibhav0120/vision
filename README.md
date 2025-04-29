@@ -1,4 +1,4 @@
-### Vision 👁️  
+<h1 align="center"> Vision ✨</h1>
 **AI-powered real-time voice & document chat assistant**
 
 [🌐 Watch Live](https://vision-virid.vercel.app/)
