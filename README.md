@@ -77,5 +77,6 @@ flutter run -d chrome   # or your desired device
 
 ## 📸 Screenshots
 
-_Add screenshots of chat screen, voice button in use, document picker, etc._
+![Image](https://github.com/user-attachments/assets/5114ac1e-1207-4790-9f1a-b0b68e12c0f5)
 
+![Image](https://github.com/user-attachments/assets/c00b7a27-fdd9-4898-8626-a6d0efc81e5e)
